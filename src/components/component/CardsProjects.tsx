@@ -106,6 +106,210 @@ export function CardsProjects() {
           </Link>
         </div>
       </div>
+      <div className="bg-background rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="https://www.futuro.cl/wp-content/uploads/2023/11/charly-garcia-1983-web-768x432.webp"
+          alt="Project 3"
+          width={600}
+          height={400}
+          className="w-full h-48 object-cover"
+        />
+        <div className="p-4">
+          <div className="flex flex-wrap gap-2 mb-2">
+            <Button variant="link" size="sm">
+              Vue.js
+            </Button>
+            <Button variant="link" size="sm">
+              Vuex
+            </Button>
+            <Button variant="link" size="sm">
+              Firebase
+            </Button>
+          </div>
+          <h3 className="text-xl font-bold mb-2">Project 3</h3>
+          <p className="text-muted-foreground mb-4">
+            A feature-rich web application with a focus on performance and user
+            experience.
+          </p>
+          <Link
+            href="#"
+            className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+            prefetch={false}
+          >
+            Ver proyecto
+          </Link>
+        </div>
+      </div>
+      <div className="bg-background rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="https://www.futuro.cl/wp-content/uploads/2023/11/charly-garcia-1983-web-768x432.webp"
+          alt="Project 3"
+          width={600}
+          height={400}
+          className="w-full h-48 object-cover"
+        />
+        <div className="p-4">
+          <div className="flex flex-wrap gap-2 mb-2">
+            <Button variant="link" size="sm">
+              Vue.js
+            </Button>
+            <Button variant="link" size="sm">
+              Vuex
+            </Button>
+            <Button variant="link" size="sm">
+              Firebase
+            </Button>
+          </div>
+          <h3 className="text-xl font-bold mb-2">Project 3</h3>
+          <p className="text-muted-foreground mb-4">
+            A feature-rich web application with a focus on performance and user
+            experience.
+          </p>
+          <Link
+            href="#"
+            className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+            prefetch={false}
+          >
+            Ver proyecto
+          </Link>
+        </div>
+      </div>
+      <div className="bg-background rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="https://www.futuro.cl/wp-content/uploads/2023/11/charly-garcia-1983-web-768x432.webp"
+          alt="Project 3"
+          width={600}
+          height={400}
+          className="w-full h-48 object-cover"
+        />
+        <div className="p-4">
+          <div className="flex flex-wrap gap-2 mb-2">
+            <Button variant="link" size="sm">
+              Vue.js
+            </Button>
+            <Button variant="link" size="sm">
+              Vuex
+            </Button>
+            <Button variant="link" size="sm">
+              Firebase
+            </Button>
+          </div>
+          <h3 className="text-xl font-bold mb-2">Project 3</h3>
+          <p className="text-muted-foreground mb-4">
+            A feature-rich web application with a focus on performance and user
+            experience.
+          </p>
+          <Link
+            href="#"
+            className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+            prefetch={false}
+          >
+            Ver proyecto
+          </Link>
+        </div>
+      </div>
+      <div className="bg-background rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="https://www.futuro.cl/wp-content/uploads/2023/11/charly-garcia-1983-web-768x432.webp"
+          alt="Project 3"
+          width={600}
+          height={400}
+          className="w-full h-48 object-cover"
+        />
+        <div className="p-4">
+          <div className="flex flex-wrap gap-2 mb-2">
+            <Button variant="link" size="sm">
+              Vue.js
+            </Button>
+            <Button variant="link" size="sm">
+              Vuex
+            </Button>
+            <Button variant="link" size="sm">
+              Firebase
+            </Button>
+          </div>
+          <h3 className="text-xl font-bold mb-2">Project 3</h3>
+          <p className="text-muted-foreground mb-4">
+            A feature-rich web application with a focus on performance and user
+            experience.
+          </p>
+          <Link
+            href="#"
+            className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+            prefetch={false}
+          >
+            Ver proyecto
+          </Link>
+        </div>
+      </div>
+      <div className="bg-background rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="https://www.futuro.cl/wp-content/uploads/2023/11/charly-garcia-1983-web-768x432.webp"
+          alt="Project 3"
+          width={600}
+          height={400}
+          className="w-full h-48 object-cover"
+        />
+        <div className="p-4">
+          <div className="flex flex-wrap gap-2 mb-2">
+            <Button variant="link" size="sm">
+              Vue.js
+            </Button>
+            <Button variant="link" size="sm">
+              Vuex
+            </Button>
+            <Button variant="link" size="sm">
+              Firebase
+            </Button>
+          </div>
+          <h3 className="text-xl font-bold mb-2">Project 3</h3>
+          <p className="text-muted-foreground mb-4">
+            A feature-rich web application with a focus on performance and user
+            experience.
+          </p>
+          <Link
+            href="#"
+            className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+            prefetch={false}
+          >
+            Ver proyecto
+          </Link>
+        </div>
+      </div>
+      <div className="bg-background rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="https://www.futuro.cl/wp-content/uploads/2023/11/charly-garcia-1983-web-768x432.webp"
+          alt="Project 3"
+          width={600}
+          height={400}
+          className="w-full h-48 object-cover"
+        />
+        <div className="p-4">
+          <div className="flex flex-wrap gap-2 mb-2">
+            <Button variant="link" size="sm">
+              Vue.js
+            </Button>
+            <Button variant="link" size="sm">
+              Vuex
+            </Button>
+            <Button variant="link" size="sm">
+              Firebase
+            </Button>
+          </div>
+          <h3 className="text-xl font-bold mb-2">Project 3</h3>
+          <p className="text-muted-foreground mb-4">
+            A feature-rich web application with a focus on performance and user
+            experience.
+          </p>
+          <Link
+            href="#"
+            className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+            prefetch={false}
+          >
+            Ver proyecto
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }
