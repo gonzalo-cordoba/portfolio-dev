@@ -4,8 +4,10 @@ export default function Projects() {
   return (
     <>
       <div>
-        <h1>Proyectos</h1>
-        <p>Estos son mis proyectos mas destacados</p>
+        <h1 className="text-2xl font-bold">Proyectos</h1>
+        <p className="text-muted-foreground mt-3 mb-10">
+          Estos son mis proyectos mas destacados.
+        </p>
       </div>
 
       <main>

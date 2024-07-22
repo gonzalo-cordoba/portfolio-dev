@@ -1,35 +1,25 @@
-import { ButtonLink } from "@/components/component/ButtonLink";
+import { SkillsCard } from "@/components/component/skills-card";
+import { Timeline } from "@/components/component/timeline";
 
 export default function Resume() {
   return (
     <>
       <main>
-        <h1 className="text-green">Perfil</h1>
-        <h2>
+        <h1 className="text-2xl font-bold mt-3 ml-3">Perfil</h1>
+        <p className="text-muted-foreground mt-3 ml-3">
           Soy un desarrollador full-stack. Con un fuerte enfoque en el
           desarrollo frontend, me encanta crear interfaces de usuario
           impresionantes e intuitivas.
-        </h2>
+        </p>
       </main>
 
       <main>
-        <h3>Experiencia</h3>
+        <h3 className="text-2xl font-bold mt-3 ml-3">Experiencia</h3>
+        <Timeline />
       </main>
 
       <main>
-        <h3>Habilidades</h3>
-        <ul>
-          <li>React</li>
-          <li>React Native</li>
-          <li>Next js</li>
-          <li>TypeScript</li>
-          <li>JavaScript</li>
-          <li>Git</li>
-          <li>Redux</li>
-          <li>Node js</li>
-          <li>CSS</li>
-          <li>HTML5</li>
-        </ul>
+        <SkillsCard />
       </main>
     </>
   );
