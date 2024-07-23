@@ -1,4 +1,3 @@
-import { ButtonSecondary } from "@/components/component/button-secondary";
 import "./globals.css";
 import { CardHome } from "@/components/component/card-home";
 
