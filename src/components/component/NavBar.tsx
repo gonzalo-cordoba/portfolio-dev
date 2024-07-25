@@ -1,4 +1,10 @@
-import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetTrigger,
+  SheetContent,
+  SheetTitle,
+  SheetDescription,
+} from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import {
@@ -20,6 +26,8 @@ export function Navbar() {
           </Button>
         </SheetTrigger>
         <SheetContent side="left">
+          <SheetTitle></SheetTitle>
+          <SheetDescription></SheetDescription>
           <Link href="/" prefetch={false}>
             <MountainIcon />
             <span className="sr-only">Acme Inc</span>
@@ -53,20 +61,22 @@ export function Navbar() {
             >
               Contacto
             </Link>
-            <Link
+            <a
               href="https://github.com/gonzalo-cordoba"
-              className="flex w-full items-center py-2 text-lg font-semibold"
-              prefetch={false}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-lg font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
             >
               Github
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://www.linkedin.com/in/gonzalocordob"
-              className="flex w-full items-center py-2 text-lg font-semibold"
-              prefetch={false}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-lg font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
             >
               LinkedIn
-            </Link>
+            </a>
           </div>
         </SheetContent>
       </Sheet>
@@ -135,7 +145,9 @@ export function Navbar() {
           </NavigationMenuLink>
         </NavigationMenuList>
       </NavigationMenu>
-      <ModeToggle />
+      <div className="ml-auto flex items-center space-x-4">
+        <ModeToggle />
+      </div>
     </header>
   );
 }
