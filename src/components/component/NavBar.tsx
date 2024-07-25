@@ -7,6 +7,7 @@ import {
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import { ModeToggle } from "./ModeToggle";
 
 export function Navbar() {
   return (
@@ -134,6 +135,7 @@ export function Navbar() {
           </NavigationMenuLink>
         </NavigationMenuList>
       </NavigationMenu>
+      <ModeToggle />
     </header>
   );
 }
