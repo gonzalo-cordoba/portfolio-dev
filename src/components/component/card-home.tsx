@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function CardHome() {
   return (
@@ -25,7 +26,13 @@ export function CardHome() {
           desarrollo frontend, me encanta crear interfaces de usuario
           impresionantes e intuitivas.
         </p>
-        <Button variant="link">Contáctame</Button>
+        <Link
+          href="#"
+          className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+          prefetch={false}
+        >
+          Contáctame
+        </Link>
       </main>
     </Card>
   );
