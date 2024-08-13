@@ -35,7 +35,7 @@ export function Navbar() {
           <div className="grid gap-2 py-6">
             <Link
               href="/"
-              className="flex w-full items-center py-2 text-lg font-semibold"
+              className="flex w-full items-center py-2 text-lg font-extrabold"
               prefetch={false}
             >
               Inicio
